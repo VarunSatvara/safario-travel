@@ -1,0 +1,15 @@
+        .menu-nav {
+            width: 90%;
+        }
+        
+        .navbar {
+            background-color: #d1cff4;
+        }
+        
+        .nav-right {
+            min-width: 260px;
+        }
+        
+        .navbar-toggler:focus {
+            outline: none;
+        }
