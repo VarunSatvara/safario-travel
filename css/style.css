@@ -111,6 +111,7 @@ html {
 .service-h3 {
     color: #2a2a2a;
     font-size: 20px;
+    font-family: "roboto condensed", sans-serif;
 }
 
 .service-p {
@@ -122,6 +123,32 @@ html {
 .service-card {
     background: #f8f8ff;
     transition: all .3s ease 0s;
+}
+
+.service-card:hover {
+    background-color: #fff;
+}
+
+.bg-exploration {
+    background-color: #f8f8ff;
+}
+
+.exploration-h2 {
+    color: #2a2a2a;
+    font-size: 36px;
+    font-family: "roboto condensed", sans-serif;
+    line-height: 45px;
+    padding-right: 190px;
+}
+
+.exploration-p {
+    color: #888888;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.spirit-section {
+    padding-right: 180px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -183,6 +210,14 @@ html {
         font-size: 16px;
         line-height: 26px;
     }
+    .exploration-h2 {
+        font-size: 36px;
+        line-height: 45px;
+        padding-right: 10px;
+    }
+    .spirit-section {
+        padding-right: 80px;
+    }
 }
 
 @media only screen and (min-width: 569px) and (max-width: 768px) {
@@ -195,6 +230,14 @@ html {
     }
     .head-section {
         padding-top: 10px;
+    }
+    .exploration-h2 {
+        font-size: 36px;
+        line-height: 45px;
+        padding-right: 70px;
+    }
+    .spirit-section {
+        padding-right: 0px;
     }
 }
 
@@ -229,5 +272,13 @@ html {
         color: #888888;
         font-size: 12px;
         font-family: "roboto condensed", sans-serif;
+    }
+    .exploration-h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-right: 0px;
+    }
+    .spirit-section {
+        padding-right: 0px;
     }
 }
