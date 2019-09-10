@@ -184,7 +184,7 @@ html {
     font-size: 36px;
     font-family: "roboto condensed", sans-serif;
     line-height: 45px;
-    padding-right: 130px;
+    padding-right: 188px;
 }
 
 .search-p {
@@ -194,7 +194,7 @@ html {
 }
 
 .package-section {
-    padding-right: 100px;
+    padding-right: 170px;
 }
 
 .package-h3 {
@@ -283,7 +283,6 @@ html {
     -webkit-tap-highlight-color: transparent;
     background-color: #fff;
     box-sizing: border-box;
-    clear: both;
     cursor: pointer;
     display: block;
     float: left;
@@ -300,6 +299,12 @@ html {
 
 .nice-select .list:hover .option:not(:hover) {
     background-color: transparent!important;
+}
+
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus {
+    background-color: #f6f6f6;
 }
 
 .nice-select .list {
@@ -322,25 +327,12 @@ html {
 }
 
 .nice-select .option.disabled {
-    background-color: transparent;
     color: #999;
     cursor: default;
 }
 
 .nice-select .option.selected {
     font-weight: 700;
-}
-
-.nice-select .option {
-    font-weight: 400;
-    line-height: 40px;
-    list-style: none;
-    min-height: 40px;
-    outline: none;
-    padding-left: 18px;
-    padding-right: 29px;
-    text-align: left;
-    transition: all .2s;
 }
 
 .nice-select .option {
@@ -378,7 +370,7 @@ html {
 }
 
 .nice-select.open .list {
-    opacity: 1;
+    opacity: 0;
     pointer-events: auto;
     transform: scale(1) translateY(0);
 }
@@ -450,6 +442,15 @@ html {
     .spirit-section {
         padding-right: 80px;
     }
+    .search-h2 {
+        padding-right: 50px;
+    }
+    .search-p {
+        padding-right: 80px;
+    }
+    .package-section {
+        padding-right: 0px;
+    }
 }
 
 @media only screen and (min-width: 569px) and (max-width: 768px) {
@@ -469,6 +470,12 @@ html {
         padding-right: 70px;
     }
     .spirit-section {
+        padding-right: 0px;
+    }
+    .search-h2 {
+        padding-right: 50px;
+    }
+    .package-section {
         padding-right: 0px;
     }
 }
@@ -511,6 +518,14 @@ html {
         padding-right: 0px;
     }
     .spirit-section {
+        padding-right: 0px;
+    }
+    .search-h2 {
+        font-size: 25px;
+        line-height: 32px;
+        padding-right: 10px;
+    }
+    .package-section {
         padding-right: 0px;
     }
 }
