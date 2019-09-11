@@ -407,6 +407,42 @@ html {
     background-color: #f8f8ff;
 }
 
+.bg-footer {
+    background-color: #04091e;
+}
+
+.ft-head {
+    font-size: 20px;
+    font-family: "roboto condensed", sans-serif;
+}
+
+.ft-p {
+    color: #777777;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.list-link {
+    color: #777777;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.location-arrow {
+    background-color: #6059f6;
+    font-size: 13px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.gp-one {
+    border: 1px solid #777777;
+}
+
+.bg-cn {
+    background-color: #04091e;
+}
+
 @media only screen and (min-width: 1024px) {
     .bg-shape::before {
         content: "";
