@@ -443,6 +443,66 @@ html {
     background-color: #04091e;
 }
 
+.tour-h2 {
+    color: #2a2a2a;
+    font-size: 36px;
+    font-family: "roboto condensed", sans-serif;
+    line-height: 45px;
+}
+
+.tour-paragraph {
+    color: #888888;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.tour-h4 {
+    color: #2a2a2a;
+    font-size: 24px;
+    font-family: "roboto condensed", sans-serif;
+}
+
+.tour-small {
+    color: #555555;
+    font-size: 15px;
+}
+
+.tour-p {
+    color: #888888;
+    font-size: 16px;
+}
+
+.tour-price-h4 {
+    font-size: 24px;
+    font-family: "roboto condensed", sans-serif;
+}
+
+.tour-card {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.tour-card .tour-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    opacity: 0;
+    z-index: 0;
+    transform: translateY(40px);
+    transition: all .3s ease 0s;
+}
+
+.tour-card:hover .tour-card-overlay {
+    transform: translateY(0);
+    width: 70%;
+    opacity: 1;
+    z-index: 1;
+}
+
 @media only screen and (min-width: 1024px) {
     .bg-shape::before {
         content: "";
@@ -519,6 +579,9 @@ html {
     .package-section {
         padding-right: 0px;
     }
+    .tour-card:hover .tour-card-overlay {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 569px) and (max-width: 768px) {
@@ -545,6 +608,9 @@ html {
     }
     .package-section {
         padding-right: 0px;
+    }
+    .tour-card:hover .tour-card-overlay {
+        width: 100%;
     }
 }
 
@@ -608,5 +674,12 @@ html {
     .forester-p {
         color: #888888;
         font-size: 15px;
+    }
+    .tour-card:hover .tour-card-overlay {
+        width: 100%;
+    }
+    .tour-h2 {
+        font-size: 28px;
+        line-height: 31px;
     }
 }
